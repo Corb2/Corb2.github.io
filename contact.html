@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CPJM</title>
+
+</head>
+
+<body>
+    <div id="menu-button">&#9776;</div>
+    <header>
+        <a href="index.html">
+            <img src="images/cpjmlogo-alpha.PNG" alt="Website Title" class="logo">
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="programming.html">Programming</a></li>
+            <li><a href="construction.html">Civil Construction</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="curtain-menu">
+        <ul>
+
+
+            <li><a id="menu-link-index" href="index.html">Home</a></li>
+            <li><a id="menu-link-about" href="about.html">About Me</a></li>
+            <li><a id="menu-link-programming" href="programming.html">Programming</a></li>
+            <li><a id="menu-link-construction" href="construction.html">Civil Construction</a></li>
+            <li><a id="menu-link-contact" href="contact.html">Contact Me</a></li>
+
+        </ul>
+    </div>
+
+    <main>
+
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="f91df4a5-8293-4e75-9ccc-ca6ca3e8b4da">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="query">Your message:</label>
+                    <textarea id="query" name="query" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="privacy.html">
+                <button class="pbutton">Privacy Policy</button>
+            </a></p>
+        <p>&copy; CPJM 2023</p>
+    </footer>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

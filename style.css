@@ -1,0 +1,835 @@
+/* style.css */
+/* Global styles */
+body {
+    background-color: #E4E6E4;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #c8764e;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Logo adjustments for small and medium screens */
+.logo {
+    max-width: 65%;
+    height: 10vh;
+}
+
+nav {
+    background-color: #c8764e;
+    text-align: center;
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Add a border to the bottom of the navigation bar */
+nav::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Reset default styles for the ul and li elements in the nav */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    margin: 0 5px;
+    /* Adjust the spacing between navigation items */
+}
+
+/* Style the links in the navigation bar */
+nav ul li a {
+    text-decoration: none;
+    color: #E4E6E4;
+    font-weight: bold;
+    font-size: 16px;
+    /* Reduce the font size for smaller screens */
+    padding: 8px 15px;
+    /* Adjust padding for smaller screens */
+    border: 2px solid #E4E6E4;
+    border-radius: 10px;
+}
+
+/* Style the navigation bar links on hover */
+nav ul li a:hover {
+    color: black;
+    background-color: black;
+    color: #fff;
+}
+
+main {
+    min-height: 100vh;
+}
+
+/* Adjust the height and width of the sections */
+.hometext {
+    background-color: #E4E6E4;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    /* Adjust padding for smaller screens */
+    min-height: 10vh;
+}
+
+/* Add these styles to change paragraph font size and style in .hometext */
+.p1 {
+    font-size: 30px;
+    /* Adjust the font size to your preference */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* Adjust the font family to your preference */
+    line-height: 1.5;
+    /* Adjust the line-height for better readability */
+    color: #c8764e;
+    /* Adjust the text color to your preference */
+    margin-bottom: 20px;
+    /* Adjust the margin bottom for spacing between paragraphs */
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* Adjust the font family to your preference */
+    line-height: 1.5;
+    /* Adjust the line-height for better readability */
+    color: #c8764e;
+    /* Adjust the text color to your preference */
+    margin-bottom: 20px;
+    /* Adjust the margin bottom for spacing between paragraphs */
+    font-weight: bold;
+
+}
+
+.truck {
+    height: 50vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.truck img {
+    max-width: 100%;
+    height: 40vh;
+    background-color: #E4E6E4;
+}
+
+.constructionhead {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c8764e;
+}
+
+/* styles.css */
+.photo-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 600px;
+    /* Set a fixed height for the container */
+}
+
+.photo {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Add a hover effect */
+.photo:hover {
+    transform: scale(1.1);
+    /* Scale up the image when hovered */
+}
+
+#text-container {
+    padding: 30px;
+    /* Add some padding around the text */
+    background-color: #E4E6E4;
+    /* Set a background color */
+    border: 2px solid #c8764e;
+    /* Add a border for separation */
+    border-radius: 2px;
+    /* Round the corners */
+    max-width: 800px;
+    /* Set a maximum width for the container */
+    margin: 0px auto;
+    /* Center the container horizontally */
+
+}
+
+#text {
+    font-size: 25px;
+    /* Adjust the font size */
+    line-height: 1.5;
+    /* Increase the line height slightly */
+    color: #c8764e;
+    /* Change the text color */
+    text-align: justify;
+    /* Justify the text for a cleaner look */
+    word-spacing: normal;
+    /* Add some spacing between words (adjust as needed) */
+
+}
+
+#text {
+    text-align: center
+}
+
+footer {
+    background-color: #c8764e;
+    color: #E4E6E4;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+    text-decoration: none;
+    font-size: 16px;
+    max-height: 10vh;
+
+
+
+}
+
+
+/*Privacy policy page style*/
+.privacyhead {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c8764e;
+}
+
+.pbutton {
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: #E4E6E4;
+    font-size: 16px;
+}
+
+.privacytext {
+    background-color: #E4E6E4;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    min-height: 70vh;
+}
+
+.pp {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #c8764e;
+    margin-bottom: 20px;
+    font-weight: normal;
+    border: 2px solid #c8764e;
+    word-spacing: normal;
+    border-radius: 5px;
+}
+
+
+/*About me page sytling*/
+
+.abouthead {
+    font-family: Arial, sans-serif sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #c8764e;
+    max-height: 10vh;
+}
+
+
+
+.aboutvideo {
+    border-radius: 15px;
+
+}
+
+.ap {
+    text-align: center;
+
+}
+
+.abouttext {
+    min-height: 40vh;
+    text-align: center;
+    align-items: center;
+
+}
+
+.aboutp {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #c8764e;
+    margin-bottom: 20px;
+    font-weight: normal;
+    border: 2px solid #c8764e;
+    word-spacing: normal;
+    border-radius: 2px;
+    margin: 0px auto;
+    max-width: 80%;
+}
+
+/*Styling for about video/
+/* Define styles for the video container */
+
+.video-container {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Define styles for the video element */
+.styled-video {
+    width: 100%;
+    max-width: 25%;
+    /* Adjust the width as needed */
+    border: 2px solid #c8764e;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*Contact form css*/
+.container {
+    width: 50%;
+    margin: 0 auto;
+    color: #c8764e;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #c8764e;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #c8764e;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #E4E6E4;
+    color: #c8764e;
+}
+
+textarea {
+    height: 150px
+}
+
+button {
+    background-color: #c8764e;
+    color: #E4E6E4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/*Programming page style*/
+
+.programhead {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #c8764e;
+}
+
+.programcontainer {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 600px;
+    /* Set a fixed height for the container */
+}
+
+.image {
+    max-width: 15%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Add a hover effect */
+.image:hover {
+    transform: scale(1.1);
+    /* Scale up the image when hovered */
+}
+
+#text-container {
+    padding: 30px;
+    /* Add some padding around the text */
+    background-color: #E4E6E4;
+    /* Set a background color */
+    border: 2px solid #c8764e;
+    /* Add a border for separation */
+    border-radius: 2px;
+    /* Round the corners */
+    max-width: 800px;
+    /* Set a maximum width for the container */
+    margin: 0px auto;
+    /* Center the container horizontally */
+
+}
+
+#text {
+    font-size: 25px;
+    /* Adjust the font size */
+    line-height: 1.5;
+    /* Increase the line height slightly */
+    color: #c8764e;
+    /* Change the text color */
+    text-align: justify;
+    /* Justify the text for a cleaner look */
+    word-spacing: normal;
+    /* Add some spacing between words (adjust as needed) */
+
+}
+
+#text {
+    text-align: center
+}
+
+/* Photo container styles for smaller and medium screens */
+@media screen and (max-width: 1240px) {
+    .photo-container {
+        flex-direction: column;
+        /* Stack images vertically */
+        align-items: center;
+        /* Center images horizontally */
+        height: auto;
+        /* Remove fixed height for smaller screens */
+    }
+
+    .photo {
+        width: 50%;
+        /* Make images responsive */
+        max-width: 50%;
+        /* Limit maximum width */
+        height: 50%;
+        /* Maintain aspect ratio */
+        margin: 10px 0;
+        /* Adjust spacing between images */
+        border-radius: 10px;
+    }
+
+    /* Add a hover effect */
+    .photo:hover {
+        transform: scale(1.1);
+        /* Scale up the image when hovered */
+    }
+
+    #text-container {
+        padding: 20px;
+        /* Add some padding around the text */
+        background-color: #E4E6E4;
+        /* Set a background color */
+        border: 2px solid #c8764e;
+        /* Add a border for separation */
+        border-radius: 5px;
+        /* Round the corners */
+        max-width: 800px;
+        /* Set a maximum width for the container */
+        margin: 0px auto;
+        /* Center the container horizontally */
+    }
+
+    #text {
+        font-size: 20px;
+        /* Adjust the font size */
+        line-height: 1.5;
+        /* Increase the line height slightly */
+        color: #c8764e;
+        /* Change the text color */
+        text-align: justify;
+        /* Justify the text for a cleaner look */
+        word-spacing: 0px;
+        /* Add some spacing between words (adjust as needed) */
+
+    }
+
+    #text {
+        text-align: center;
+    }
+
+    /*Promgram container for smaller devices*/
+    .programhead {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #c8764e;
+    }
+
+    .programcontainer {
+        flex-direction: column;
+        /* Stack images vertically */
+        align-items: center;
+        /* Center images horizontally */
+        height: auto;
+        /* Remove fixed height for smaller screens */
+    }
+
+    .image {
+        width: 40%;
+        /* Make images responsive */
+        max-width: 40%;
+        /* Limit maximum width */
+        height: 40%;
+        /* Maintain aspect ratio */
+        margin: 10px 0;
+        /* Adjust spacing between images */
+        border-radius: 10px;
+    }
+
+    /* Add a hover effect */
+    .image:hover {
+        transform: scale(1.1);
+        /* Scale up the image when hovered */
+    }
+
+    #text-container {
+        padding: 20px;
+        /* Add some padding around the text */
+        background-color: #E4E6E4;
+        /* Set a background color */
+        border: 2px solid #c8764e;
+        /* Add a border for separation */
+        border-radius: 5px;
+        /* Round the corners */
+        max-width: 800px;
+        /* Set a maximum width for the container */
+        margin: 0px auto;
+        /* Center the container horizontally */
+    }
+
+    #text {
+        font-size: 20px;
+        /* Adjust the font size */
+        line-height: 1.5;
+        /* Increase the line height slightly */
+        color: #c8764e;
+        /* Change the text color */
+        text-align: justify;
+        /* Justify the text for a cleaner look */
+        word-spacing: 0px;
+        /* Add some spacing between words (adjust as needed) */
+
+    }
+
+    #text {
+        text-align: center;
+    }
+
+
+    .video-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Define styles for the video element */
+    .styled-video {
+        width: 100%;
+        max-width: 60%;
+        /* Adjust the width as needed */
+        border: 2px solid #c8764e;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+
+    /* Center the text on small screens */
+    .hometext {
+        padding: 20px;
+        /* Further adjust padding for smaller screens */
+        font-size: 14px;
+        /* Reduce font size for smaller screens */
+        height: auto;
+    }
+
+    .computer {
+        background-color: #E4E6E4;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px 10px;
+        /* Adjust padding for smaller screens */
+        height: 60vh;
+    }
+
+    .computer img {
+        max-width: 100%;
+        height: 50vh;
+        border-radius: 30px;
+    }
+
+    /* Logo adjustments for smaller screens */
+    .logo {
+        max-width: 50%;
+    }
+
+    /* Style the links for smaller screens */
+    nav ul li a {
+        font-size: 12px;
+        /* Reduce font size for smaller screens */
+        padding: 6px 10px;
+        /* Further adjust padding for smaller screens */
+    }
+
+    /* Styles for smaller screens using media queries */
+    @media screen and (max-width: 768px) {
+
+        /* Hide the truck image on small screens */
+        .truck {
+            display: none;
+        }
+
+    }
+
+    .aboutmephoto {
+        max-width: 80%;
+        border-radius: 15px;
+        max-height: 30vh;
+    }
+
+    .aboutp {
+        font-size: 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        color: #c8764e;
+        margin-bottom: 20px;
+        font-weight: normal;
+        border: 2px solid #c8764e;
+        word-spacing: normal;
+        border-radius: 5px;
+        margin: 0px auto;
+        max-width: 90%;
+    }
+}
+
+.truck {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.truck img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Contact form for mobile*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    color: #c8764e;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #c8764e;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #c8764e;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #E4E6E4;
+    color: #c8764e;
+}
+
+textarea {
+    height: 150px
+}
+
+button {
+    background-color: #c8764e;
+    color: #E4E6E4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+
+
+/* Initial styles for curtain menu */
+#curtain-menu {
+    position: fixed;
+    top: 0;
+    left: -220px;
+    height: 40%;
+    background-color: #c8764e;
+    text-align: left;
+    padding: 20px;
+    width: 170px;
+    z-index: 1000;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Styles for close button and curtain menu links */
+#close-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#curtain-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#curtain-menu li {
+    margin: 15px 0;
+}
+
+#curtain-menu a {
+    text-decoration: none;
+    color: #E4E6E4;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/* Button to open/close curtain menu */
+#menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1001;
+    transform: rotate(90deg);
+    color: #E4E6E4;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+
+    /* Show curtain menu on small screens */
+    #curtain-menu {
+        right: 0;
+    }
+
+    /* Hide horizontal navigation bar on small screens */
+    nav {
+        display: none;
+    }
+
+    /* Show menu button on small screens */
+    #menu-button {
+        display: block;
+    }
+
+    /* Hide truck image on small screens */
+    .truck {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    /* Show truck image on medium and larger screens */
+    .truck {
+        display: block;
+    }
+
+    /* Hide smaller screen image on medium and larger screens */
+    .smaller-screen-image {
+        display: none;
+    }
+
+    /* Hide curtain menu on medium and larger screens */
+    #curtain-menu {
+        right: -220px;
+    }
+
+    /* Show horizontal navigation bar on medium and larger screens */
+    nav {
+        display: block;
+    }
+
+    /* Hide menu button on medium and larger screens */
+    #menu-button {
+        display: none;
+    }
+}
