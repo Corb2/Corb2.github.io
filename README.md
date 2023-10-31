@@ -1,1 +1,1 @@
-# Corb2.github.io
+For educational purposes only
