@@ -28,7 +28,7 @@ function changeText(photoNumber) {
   switch (photoNumber) {
     case 1:
       textElement.innerHTML = "The vehicle shown in the photo is a hydro excavator, a powerful machine utilizing high-pressure water and vacuum technology for excavation. With extensive experience, I've operated this equipment for utility excavation, including power, telecom, storm drains, water, and sewer lines. Competence and licensing are prerequisites for operating this machinery, as it carries risks, especially around damaged utilities. Maintaining personal safety and hygiene is crucial given the potential exposure to contaminants. Long hours and irregular schedules are common in this line of work. This career has provided me valuable insights into my city's infrastructure and the intricate web of utilities that serve its residents.";
-      audioElement.src = "sounds/puffer.mp3"
+      audioElement.src = "sounds/snore.mp3"
       audioElement.play()
       break;
     case 2:
